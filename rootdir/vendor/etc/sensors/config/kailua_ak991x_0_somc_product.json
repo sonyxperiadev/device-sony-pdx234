@@ -1,0 +1,56 @@
+{
+  "config":{
+    "soc_id": ["519"]
+  },
+  "ak0991x_0_platform":{
+    "owner": "sns_ak0991x",
+    ".orient":{
+      "owner": "sns_ak0991x",
+      "x":{ "type": "str", "ver": "1",
+        "data": "-x"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "-y"
+      },
+      "z":{ "type": "str", "ver": "1",
+        "data": "+z"
+      }
+    },
+    ".mag":{
+      "owner": "sns_ak0991x",
+      ".fac_cal":{
+        "owner": "sns_ak0991x",
+        ".corr_mat":{
+          "owner": "sns_ak0991x",
+          "0_0":{ "type": "flt", "ver": "2",
+            "data": "0.901978"
+          },
+          "0_1":{ "type": "flt", "ver": "2",
+            "data": "0.068466"
+          },
+          "0_2":{ "type": "flt", "ver": "2",
+            "data": "-0.003139"
+          },
+          "1_0":{ "type": "flt", "ver": "2",
+            "data": "0.068466"
+          },
+          "1_1":{ "type": "flt", "ver": "2",
+            "data": "0.880163"
+          },
+          "1_2":{ "type": "flt", "ver": "2",
+            "data": "0.050137"
+          },
+          "2_0":{ "type": "flt", "ver": "2",
+            "data": "-0.003138"
+          },
+          "2_1":{ "type": "flt", "ver": "2",
+            "data": "0.050137"
+          },
+          "2_2":{ "type": "flt", "ver": "2",
+            "data": "1"
+          }
+        }
+      }
+    }
+  }
+}
