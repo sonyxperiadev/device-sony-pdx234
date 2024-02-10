@@ -30,7 +30,7 @@ BOARD_BOOTCONFIG += androidboot.hardware=pdx234
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=pdx234
 
 # FB console
-#BOARD_KERNEL_CMDLINE += earlycon=simplefb,0xb8000000,1080,2520
+#BOARD_KERNEL_CMDLINE += earlycon=simplefb,0xb8000000,1096,2560
 
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
