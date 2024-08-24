@@ -67,6 +67,14 @@
     <ctl name="WSA_AIF_CPS Mixer WSA_SPKR_CPS_1" value="0" />
     <ctl name="WSA_AIF_CPS Mixer WSA_SPKR_CPS_2" value="0" />
 
+    <!-- CS35L45 controls -->
+    <ctl name="L DSP1 Firmware" value="Protection" />
+    <ctl name="L DSP1 Preload Switch" value="1" />
+    <ctl name="L DSP1 Boot Switch" value="1" />
+    <ctl name="R DSP1 Firmware" value="Protection" />
+    <ctl name="R DSP1 Preload Switch" value="1" />
+    <ctl name="R DSP1 Boot Switch" value="1" />
+
     <!-- WSA controls -->
     <ctl name="WSA RX0 MUX" value="ZERO" />
     <ctl name="WSA RX1 MUX" value="ZERO" />
