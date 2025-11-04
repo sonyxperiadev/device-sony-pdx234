@@ -16,7 +16,7 @@
 PRODUCT_DEVICE_DS := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.default_network=9,9
+    ro.telephony.default_network=26,26
 
 TARGET_KERNEL_CONFIG := aosp_yodo_pdx234_defconfig
 
