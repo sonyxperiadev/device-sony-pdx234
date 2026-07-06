@@ -6,7 +6,7 @@
     <!-- MMS user agent prolfile url, for example https://uaprof.oem_name.com/DeviceName.xml
          if the string contains a '%s' format string then that substring will be replaced
          with the value of Build.MODEL , ie https://uaprof.oem_name.com/%s.xml -->
-    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/I4213R5301.xml</string>
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/XQ-DQ54R13.xml</string>
 
     <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
