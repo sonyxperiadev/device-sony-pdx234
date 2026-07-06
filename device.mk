@@ -15,9 +15,6 @@
 # Device path
 DEVICE_PATH := device/sony/pdx234/rootdir
 
-DEVICE_PACKAGE_OVERLAYS += \
-    device/sony/pdx234/overlay
-
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
@@ -54,6 +51,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/sensors/config/kailua_lsm6dso_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_lsm6dso_0_somc_platform.json \
     $(DEVICE_PATH)/vendor/etc/sensors/config/kailua_bmp5_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_bmp5_0_somc_platform.json \
     $(DEVICE_PATH)/vendor/etc/sensors/config/kailua_ak991x_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_0_somc_platform.json
+
+# Device Runtime Resource Overlays
+PRODUCT_PACKAGES += \
+    FrameworkOverlayPDX234 \
+    SystemUIOverlayPDX234
 
 # Device Init
 PRODUCT_PACKAGES += \
