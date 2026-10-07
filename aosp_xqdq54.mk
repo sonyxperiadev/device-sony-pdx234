@@ -18,6 +18,10 @@ PRODUCT_DEVICE_DS := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=26,26
 
+# Explicitly disable legacy HIDL CAS 1.2 HAL
+# Set this before inheriting build/target/product/base_vendor.mk
+TARGET_REQUIRES_HIDL_CAS_HAL := false
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/pdx234/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
