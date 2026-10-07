@@ -18,8 +18,6 @@ PRODUCT_DEVICE_DS := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=26,26
 
-TARGET_KERNEL_CONFIG := aosp_yodo_pdx234_defconfig
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/pdx234/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
