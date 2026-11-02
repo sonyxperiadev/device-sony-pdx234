@@ -77,7 +77,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-PRODUCT_PROPERTY_OVERRIDES := \
+PRODUCT_VENDOR_PROPERTIES := \
     ro.sf.lcd_density=420 \
     ro.vendor.usb.pid_suffix=20d
 
